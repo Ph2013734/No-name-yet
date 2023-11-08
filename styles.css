@@ -4,6 +4,15 @@ html, body {
     margin: 0;
 }
 
+.dock-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Màu nền của phần tử */
+    color: #fff; /* Màu văn bản của phần tử */
+    padding: 10px; /* Khoảng cách bên trong phần tử */
+}
+
 /* Đặt phần tử ở dưới cùng của trang */
 .dock-bottom {
     position: absolute;
